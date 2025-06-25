@@ -4,7 +4,7 @@ export default function Cadastro() {
   return (
     <div className="container">
       <form className="formulario">
-        <h2>Cadastrar</h2>
+        <h2>Realizar Cadastro</h2>
         <p>
           Este cadastro é restrito a colaboradores autorizados da Faculdade Católica da Paraíba.
         </p>
@@ -16,6 +16,7 @@ export default function Cadastro() {
             id="username"
             name="username"
             placeholder="Digite um username"
+            required
           />
 
           <label htmlFor="nome">Nome</label>
@@ -24,6 +25,7 @@ export default function Cadastro() {
             id="nome"
             name="nome"
             placeholder="Digite seu nome completo"
+            required
           />
 
           <label htmlFor="email">Email</label>
@@ -32,6 +34,7 @@ export default function Cadastro() {
             id="email"
             name="email"
             placeholder="Digite seu email"
+            required
           />
 
           <label htmlFor="cargo">Cargo</label>
@@ -48,6 +51,7 @@ export default function Cadastro() {
             id="senha"
             name="senha"
             placeholder="Digite sua senha"
+            required
           />
 
           <label htmlFor="confirmarSenha">Confirmar senha</label>
@@ -56,6 +60,7 @@ export default function Cadastro() {
             id="confirmarSenha"
             name="confirmarSenha"
             placeholder="Confirme sua senha"
+            required
           />
         </div>
 

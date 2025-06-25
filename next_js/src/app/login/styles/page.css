@@ -60,12 +60,12 @@ body {
 .inputs label {
   font-weight: 500;
   margin-bottom: 0.2rem;
-  color: #444;
+  color: #000;
 }
 
 .inputs input {
   padding: 0.75rem;
-  border: 1px solid #ccc;
+  border: 1px solid #000;
   border-radius: 4px;
   font-size: 1rem;
 }
@@ -75,7 +75,7 @@ body {
   margin-top: 0.5rem;
   text-align: left;
   font-size: 0.85rem;
-  color: #000000;
+  color: #000;
   cursor: pointer;
 }
 
@@ -96,13 +96,6 @@ body {
 
 .btn-submit:hover {
   background-color: #001848;
-}
-.img{
-   width: 250px;
-  height: auto;
-  display: block;
-  margin: auto;
-  padding: 2rem;
 }
 
 
