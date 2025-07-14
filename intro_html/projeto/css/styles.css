@@ -1,0 +1,30 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 0, 0);
+}
+.container{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+}
+.inicio{
+    font-weight:bold;
+}
+.imagem img{
+    height: 500px;
+    width: 900px;
+    border-radius: 10px;
+}
+.curiosidades_perso ul{
+    text-align: left;
+    display: inline-block;
+}
+h1,h2{
+    color: #333;
+    font-weight: bold;
+
+}
+a{
+    color: red;
+}

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.cabecalho {
+    background-color: blueviolet;
+    padding: 30px;
+    color: white;
+    text-align: left;
+    font-size: 17px;
+}
+
+.titulo {
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+.inputs_one {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.inputs_two {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.opcionais {
+    text-align: center;
+}
+
+
+.arquivos {
+    text-align: center;
+}
+
+.botao {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+button{
+    background-color:blueviolet;
+    color: white;
+    width: 500px;;
+}

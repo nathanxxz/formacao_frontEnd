@@ -1,22 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="principal">
-        <div class="header">
-            <h3>Cadastre seu veiculo para vender mais rapido</h3>
+    <div class="container">
+        <div class="cabecalho">
+            <h3>Aqui ce vende rapido</h3>
         </div>
-        <div class="form">
-            <div class="header">
-                <p>Formulario</p>
-            </div>
+        <div class="titulo">
+            <h1>Formulario</h1>
         </div>
+        <div class="formulario">
+            <form>
+                <div class="inputs_one">
+                    <label for="titulo">Titulo do anuncio</label>
+                    <input type="text" id="titulo" name="titulo" placeholder="Titulo para anunciar seu carro" required>
+                    <label for="preco">Preco</label>
+                    <input type="number" id="preco" name="preco" placeholder="Preco para seu carro" required>
+                    <label for="descricao">Descricao</label>
+                    <textarea name="descricao" id="descricao" placeholder="Fale sobre seu carro"></textarea>
+                    <label for="marca">Marca</label>
+                    <input type="text" id="marca" name="marca" placeholder="Informe a marca do seu carro" required>
+                </div>
+                <div class="inputs_two">
+                    <label for="modelo">Modelo</label>
+                    <input type="text" id="modelo" name="modelo" placeholder="Informe o modelo do seu carro" required>
+                    <label for="km">Km do seu carro</label>
+                    <input type="number" id="km" name="km" placeholder="Informe os km" required>
+                    <label for="data">Data de compra</label>
+                    <input type="date" id="data" name="data" required>
+                    <label for="cambio">Tipo de cambio</label>
+                    <input type="radio" id="manual" name="manual" required>
+                    <label for="manual">manual</label>
+                    <input type="radio" id="automatico" name="automatico" required>
+                    <label for="automatico">automatico</label>
+
+                </div>
+        </div>
+
+        <div class="opcionais">
+            <h2>Opcionais</h2><br>
+            <ul>
+                <li>
+                    <input type="checkbox" id="arcondicionado" name="arcondicionado" required>
+                    <label for="arcondicionado">Arcondicionado</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="bancoDeCouro" name="bancoDeCouro" required>
+                    <label for="bancoDeCouro">BancoDeCouro</label>
+                </li>
+            </ul>
+        </div>
+        <div class="arquivos">
+            <h2>Foto do carro</h2><br>
+            <input type="file" id="foto" name="foto" required>
+        </div>
+        <div class="botao">
+            <button type="submit" id="botao" name="botao">Enviar</button>
+        </div>
+        </form>
     </div>
-    
+    </div>
+
 </body>
+
 </html>
